@@ -1,3 +1,10 @@
+## [10.2.0] - Improve Behavior
+
+* Add parameter `errorHandler` to [CurrentLocationLayer()](https://pub.dev/documentation/flutter_map_location_marker/10.2.0/flutter_map_location_marker/CurrentLocationLayer/CurrentLocationLayer.html)
+* Fix HeadingSector not smooth on iOS (#151)
+* Fix MissingPluginException on unsupported platforms (#149)
+* Fix unhandled error in default position stream by forwarding all exception (#148)
+
 ## [10.1.0] - Update Dependencies
 
 * Update dependencies
